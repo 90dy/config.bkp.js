@@ -1,9 +1,9 @@
 /** @typedef { import('prettier').Config } PrettierConfig  */
 
 /** @type {PrettierConfig} */
-export default {
+module.exports = {
 	printWidth: 80,
 	semi: false,
 	singleQuote: true,
 	jsxSingleQuote: true,
-};
+}

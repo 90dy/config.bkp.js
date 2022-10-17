@@ -1,3 +1,1 @@
-module.exports = {
-	extends: "./prettier-config",
-};
+module.exports = require('./prettier-config')
