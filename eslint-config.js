@@ -50,7 +50,7 @@ module.exports = {
 		// rules below removed current errors but could be useful
 		'no-useless-catch': 'warn',
 		'no-unsafe-finally': 'warn',
-		'import/no-cycle': 'warn',
+		// 'import/no-cycle': 'warn',
 		'react/jsx-key': 'warn',
 		'react-hooks/rules-of-hooks': 'warn',
 		'prefer-const': 'warn',
