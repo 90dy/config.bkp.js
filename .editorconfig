@@ -13,5 +13,5 @@ trim_trailing_whitespace = true
 indent_style = tab
 indent_size = 2
 
-[*.{yml,gn,gni,md,toml}]
+[*.{yml,yaml,gn,gni,md,toml}]
 indent_style = space

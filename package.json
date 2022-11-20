@@ -4,6 +4,13 @@
 	"description": "",
 	"main": "index.js",
 	"type": "commonjs",
+	"files": [
+		"tsconfig.json",
+		"commitlint-config.js",
+		"eslint-config.js",
+		"prettier-config.js",
+		"semantic-config.js"
+	],
 	"keywords": [
 		"eslint",
 		"tsconfig",
@@ -38,8 +45,11 @@
 		"husky": "^8.0.1",
 		"is-ci": "^3.0.1",
 		"pinst": "^3.0.0",
+		"prettier": "^2.7.1",
 		"semantic-release": "^19.0.5",
-		"typescript": "^4.8.4"
+		"typescript": "^4.8.4",
+		"webpack": "^5.75.0",
+		"zod": "^3.19.1"
 	},
 	"peerDependencies": {
 		"@commitlint/cli": "^17.1.2",
@@ -57,10 +67,8 @@
 		"husky": "^8.0.1",
 		"is-ci": "^3.0.1",
 		"pinst": "^3.0.0",
+		"prettier": "^2.7.1",
 		"semantic-release": "^19.0.5",
 		"typescript": "^4.8.4"
-	},
-	"dependencies": {
-		"prettier": "^2.7.1"
 	}
 }
