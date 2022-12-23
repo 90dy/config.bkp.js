@@ -8,7 +8,8 @@
 		"commitlint-config.js",
 		"eslint-config.js",
 		"prettier-config.js",
-		"semantic-config.js"
+		"semantic-config.js",
+		"lintstaged-config.js"
 	],
 	"keywords": [
 		"eslint",
