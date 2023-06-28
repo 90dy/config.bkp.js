@@ -78,7 +78,7 @@ module.exports = {
 				'@typescript-eslint/ban-ts-comment': 'warn',
 				'@typescript-eslint/unbound-method': 'warn',
 				'@typescript-eslint/no-floating-promises': 'warn',
-				'@typescript-eslint/no-misused-promises': 'warn',
+				'@typescript-eslint/no-misused-promises': 'off',
 				'@typescript-eslint/no-unsafe-assignment': 'warn',
 				'@typescript-eslint/no-unnecessary-type-assertion': 'warn',
 				'@typescript-eslint/prefer-as-const': 'warn',
