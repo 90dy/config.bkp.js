@@ -1,5 +1,4 @@
 module.exports = {
-	'lint-staged': {
-		'*.{js,ts,tsx}': ['eslint --fix', 'prettier --write'],
-	},
+	'*.{js,ts,jsx,tsx,mjs,mts}': ['eslint --fix'],
+	'*': ['prettier --write'],
 }
