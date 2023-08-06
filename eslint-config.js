@@ -13,6 +13,7 @@ module.exports = {
 		},
 	},
 	parserOptions: {
+		ecmaVersion: 'latest',
 		project: [],
 		ecmaFeatures: {
 			jsx: true,
@@ -33,9 +34,7 @@ module.exports = {
 		'arrow-body-style': 'off',
 		'no-prototype-builtins': 'warn',
 		'no-empty-function': 'off',
-		'no-console': isDev
-			? 'off'
-			: ['error', { allow: ['error', 'warn', 'info', 'assert', 'debug'] }],
+		'no-console': isDev ? 'off' : ['error', { allow: ['error', 'warn', 'info', 'assert', 'debug'] }],
 		'simple-import-sort/imports': 'warn',
 		'simple-import-sort/exports': 'warn',
 		'react/react-in-jsx-scope': 'off',

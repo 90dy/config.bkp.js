@@ -1,4 +1,4 @@
 module.exports = {
 	extends: ['./semantic-config'],
-	branches: ['90dy'],
+	branches: ['main'],
 }

@@ -1,11 +1,11 @@
-name: Release
+name: Publish
 on:
   push:
     branches:
-      - 90dy
+      - main
 jobs:
-  release:
-    name: Release
+  publish:
+    name: Publish NPM
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -22,7 +22,7 @@ jobs:
         cache: 'pnpm'
     - name: Install dependencies
       run: pnpm install
-    - name: Release
+    - name: Publish
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -3,8 +3,6 @@
 	"compilerOptions": {
 		"target": "ESNext",
 		"lib": ["esnext"],
-		"baseUrl": ".",
-		"outDir": ".",
 		"allowJs": true,
 		"skipLibCheck": true,
 		"strict": true,
@@ -19,16 +17,6 @@
 		"isolatedModules": true,
 		"jsx": "preserve",
 		"incremental": true,
-		"noErrorTruncation": false,
-		"paths": {
-			"/*": ["./*"]
-		},
-		"plugins": [
-			{
-				"name": "next"
-			}
-		]
-	},
-	"exclude": ["node_modules"],
-	"include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"]
+		"noErrorTruncation": false
+	}
 }
